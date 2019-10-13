@@ -1,0 +1,17 @@
+.palette {
+  display: flex;
+}
+.palette-item {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+.selected {
+  width: 20px;
+  height: 20px;
+  border-radius: 3px;
+  margin-left: 15px;
+  border: 1px solid #ccc;
+}
